@@ -1,6 +1,9 @@
 # Inside
 
-[![build-img]][travis] [![release-img]][releases] [![license-img]](LICENSE)
+[![build-img]][travis]
+[![release-img]][releases]
+[![hexo-image]][hexo]
+[![license-img]](LICENSE)
 
 ❤️ SPA, flat and clean theme for [Hexo].
 
@@ -12,6 +15,7 @@
 - [Features](#features)
 - [Quick start](#quick-start)
 - [Changelog](#changelog)
+- [FAQ](#faq)
 - [License](#license)
 
 ## Preview
@@ -22,13 +26,8 @@
 ## Features
 
 - SPA built with [angular]
-- Custom accent color, background, fonts
+- Custom accent color, background, fonts, dark mode
 - Custom code syntax highlighting
-- Sub-page routes
-- Internationalization (i18n)
-  - :cn: Simplified Chinese & Traditional Chinese
-  - :us: English
-  - :jp: Japanese
 - Search
 - Comments
   - [Disqus]
@@ -43,14 +42,13 @@
   - Copyright notice
   - Reward
 - [PWA]
-  - Immersive design (Chrome on Android)
+  - Immersive design
   - [manifest.json]
   - Offline support ([workbox])
 - SEO
-  - Canonical link
   - Built-in `sitemap.xml`
   - [Structured Data]
-  - Open Graph Meta Tags
+- Print friendly
 
 ## Quick start
 
@@ -59,7 +57,6 @@
 2\. Config `HEXO/_config.yml` as follows:
 
 ```yml
-permalink: post/:title/
 theme: inside
 ```
 
@@ -67,19 +64,25 @@ theme: inside
 
 ## Browser Support
 
-- Modern browser
+- Evergreen
 
 ## Changelog
 
 [releases]
 
+## FAQ
+
+- Where to find front-end source code?
+
+  It's placed at https://bitbucket.org/ikeq/hexo-theme-inside-ng for historical reason.
+
 ## License
 
 Licensed under [MIT](LICENSE).
 
-[build-img]: https://img.shields.io/travis/ike-c/hexo-theme-inside.svg?longCache=true&style=flat-square
-[release-img]: https://img.shields.io/github/release/ike-c/hexo-theme-inside.svg?longCache=true&style=flat-square
-[license-img]: https://img.shields.io/github/license/ike-c/hexo-theme-inside.svg?longCache=true&style=flat-square
+[build-img]: https://img.shields.io/travis/ikeq/hexo-theme-inside.svg?longCache=true&style=flat-square
+[release-img]: https://img.shields.io/github/release/ikeq/hexo-theme-inside.svg?longCache=true&style=flat-square
+[license-img]: https://img.shields.io/github/license/ikeq/hexo-theme-inside.svg?longCache=true&style=flat-square
 
 [angular]: https://angular.io
 [hexo]: https://hexo.io/
@@ -89,6 +92,7 @@ Licensed under [MIT](LICENSE).
 [Structured Data]: https://developers.google.com/search/docs/guides/intro-structured-data
 [disqus]: https://disqus.com
 [livere]: https://livere.com
-[releases]: https://github.com/ike-c/hexo-theme-inside/releases
-[travis]: https://travis-ci.org/ike-c/hexo-theme-inside
+[releases]: https://github.com/ikeq/hexo-theme-inside/releases
+[travis]: https://travis-ci.com/ikeq/hexo-theme-inside
 [documentation]: https://blog.oniuo.com/theme-inside
+[hexo-image]: https://img.shields.io/badge/hexo-%3E%3D%204.2-blue.svg?longCache=true&style=flat-square
